@@ -1,0 +1,129 @@
+Html{
+font-family: Arial;
+color: white;
+}
+h1{
+font-size: 50px;
+filter: drop-shadow(1px 1px #6782ee);
+}
+table{
+border:0;
+border-color:transparent;
+background-color: transparent;
+}
+body{
+background-color:  #99cffc;
+}
+figure{
+border-radius: 15px;
+background: #6782ee;
+display: block;
+text-align: center;
+height: 100 px;
+
+}
+a{
+ width: 60%;
+  text-align: center;
+  line-height: 3;
+  text-decoration: none;
+ display: inline-block;
+}
+a.selected{
+  color: white;
+  background: #334694;
+  pointer-events: none;
+}
+a:link,
+a:visited,a:focus
+ {
+  color: white;
+}
+
+a:hover {
+color:white;
+  background: #334694;
+}
+
+a#tops:hover {
+color:white;
+background: transparent;
+}
+a#red,
+a#red:visited,
+a#red:focus {
+border-radius: 15px;
+ text-decoration: none;
+ display: block;
+ background: #aa3435;
+ color:white;
+}
+a#red:hover{
+ color: #6782ee;
+ display: block;
+ background: white;}
+ a#dark, a#dark:visited,a#dark:focus{ color:  #6782ee;}
+ a#dark:hover {
+color:white;
+background:  #6782ee;
+}
+table#white{
+ background-image: url("././img/white.png");
+ color:#6782ee;
+}
+p{
+font-size: 18px;
+text-align:justify}
+li{
+font-size: 18px;
+}
+input[type=text],
+ input[type=date],
+ input[type=number], input[type=tel], input[type=email],
+  input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: transparent;
+  background-color: #99cffc;
+  color: #334694;
+  font-size: 16px;
+  border-radius: 15px;
+}
+button{
+width: 100%;
+font-size:20px;
+  background-color: #aa3435;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius:15px;
+  cursor: pointer;
+}
+button:hover {
+font-size:20px;
+  background-color: #6782ee;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius:15px;
+  cursor: pointer;
+}
+h1#red{
+ color:#aa3435;
+ }
+ a#a{
+ height: 50px;
+ color: #6782ee;
+  width: 50%;
+  text-align: left;
+  text-decoration: none;
+ display: flex;}
+ a#a:hover{
+ color:#aa3435;
+ background:transparent;}
