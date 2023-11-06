@@ -1,0 +1,32 @@
+figure{
+font-size: 20px;
+background: #6782ee;
+border-radius: 15px;
+height:500px;
+width:400px;
+text-align:center;
+padding-top:20px;
+padding-bottom:20px;
+font-family: verdana;
+}
+figcaption{
+padding: 30px;
+}
+html{
+color:white;
+border: 10px;
+font-family: arial;
+}
+body{
+background-color:  #99cffc;
+}
+a{
+border-radius: 15px;
+ text-align: center:
+  line-height: 3;
+  text-decoration: none;
+ display: inline-block;
+}
+a:hover {
+  background: white;
+}
